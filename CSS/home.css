@@ -1,0 +1,14 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+header img{
+    width: 1300px;
+    height: 200px;
+    
+}
