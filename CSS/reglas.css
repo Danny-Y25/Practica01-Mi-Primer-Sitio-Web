@@ -64,3 +64,11 @@ section img{
     height: 300px;
     
 }
+
+@font-face {
+    font-family: Open-Sans-Condensed;
+    src: url(../Fuentes/letra.ttf);
+}
+*{
+    font-family: Open-Sans-Condensed;
+}
