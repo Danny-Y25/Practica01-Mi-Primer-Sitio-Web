@@ -159,5 +159,7 @@ header div input{
     height: 20px;
     size: 300;
     text-align: left;
+    position:relative;
+    left: 900px;
 }
 

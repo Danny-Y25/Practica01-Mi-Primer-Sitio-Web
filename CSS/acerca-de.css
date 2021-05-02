@@ -1,0 +1,82 @@
+.logo{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+.comunidad{
+    width: 260px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.Fundador{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 50px;
+}
+
+article{
+    width: 600px;
+    height: 370px;
+    /*background: red;*/
+    float: left;
+    margin: 20px 30px 20px 0px;
+    /*background-image: url(../imagenes/fondo2.jpg);*/
+    font-size: 1.5em;
+    background: rgb 9.8,16.5,24.7;
+}
+aside{
+    width: 270px;
+    height: 370px;
+    margin: 20px;
+    /*background: black;*/
+    float: left;
+    position: static;
+    z-index: 100;
+    background: none;
+    
+}
+.aside2{
+    width: 290px;
+    height: 370px;
+    /*background: blue;*/
+    float: left;
+    margin: 20px 30px 20px 0px;
+    background: none;
+}
+.menu{
+    width: 270px;
+    height: 370px;
+    margin: 20px;
+    /*background: black;*/
+    float: left;
+    position: static;
+    z-index: 100;
+}
+nav ul li {
+
+    display: table-cell;
+    width: 3%;
+    text-align: center;
+    border: thin solid black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    
+    
+}
+nav {
+    display: table;
+    width: 100%;
+    
+}
+/*Tipo de Tabla*/
+nav ul {
+    display: table-row;
+    margin: 2;
+    
+}
+    
+

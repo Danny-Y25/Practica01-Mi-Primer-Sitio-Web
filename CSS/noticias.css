@@ -1,0 +1,28 @@
+/* Ancho de celda*/
+nav ul li {
+
+    display: table-cell;
+    width: 3%;
+    text-align: center;
+    border: thin solid black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    
+    
+}
+/*Ancho de la tabla*/
+nav {
+    display: table;
+    width: 100%;
+    
+}
+/*Tipo de Tabla*/
+nav ul {
+    display: table-row;
+    margin: 2;
+    
+}
+aside{
+    background: none;
+}

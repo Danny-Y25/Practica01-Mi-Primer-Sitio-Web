@@ -1,0 +1,46 @@
+article{
+    width: 1000px;
+    height: 200px;
+    /*background: #bcd5b0;*/
+    float: right;
+    margin: 50px 30px 20px 0px;
+    
+}
+aside{
+    width: 230px;
+    height: 200px;
+    margin: 20px;
+    background:white;
+    float: left;
+    position: static;
+    z-index: 100;
+    border-radius: 100px;
+    
+}
+.persona{
+    
+    text-align: center;
+}
+p img{
+    width: 100px;
+    height: 100px;
+}
+h2{
+    color: black;
+    
+}
+input{
+    width: 300px;
+    height: 35px;
+}
+textarea{
+    width: 600px;
+    height: 70px;
+    margin-top: 5px;
+}
+input[type=submit]{
+    color:black;
+}
+::-webkit-input-placeholder{
+    color:black;
+}

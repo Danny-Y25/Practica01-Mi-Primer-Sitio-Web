@@ -5,16 +5,15 @@
     <meta charset="utf-8"/>
     <title> Zona Gaming</title>
     
-    <link rel="stylesheet" type="text/css" href="CSS/home.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/2-columnas.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/reglas.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/contacto.css"/>
 </head>
 
 <body>
     <header>
         <a href="index.html"><img src="imagenes/logo5.jpg" alt="zona games"/></a>
-        <div> 
-            <input type="text" class="Buscar texto" placeholder="Buscar">
-        </div>
+        
         <nav>
             <ul>
             <li><a href="Noticias.html">Noticias</a></li>
@@ -29,6 +28,24 @@
            </nav>
 
     </header>
+    <form action="submeter-formulario.php" method="post"> 
+    <section>
+        <article>
+            <form class='contacto'>
+                <input type="text" name="nombre" placeholder="NOMBRE">
+                <input type="email" name="email" placeholder="CORREO">
+                <br>
+                <textarea type="text" name="mensaje" placeholder="MENSAJE" ></textarea>
+                <br>
+                <input type='submit' value='Envia Mensaje'>
+            </form>
+        </article>
+        <aside>
+            <p class="persona"><img  src="imagenes/persona2.png" alt="persona"></p>
+            <h2>Información de Contacto</h2>
+        </aside>
+    </section>
+    
     
     <footer>
         <table>
