@@ -4,6 +4,7 @@ article{
     /*background: #bcd5b0;*/
     float: right;
     margin: 50px 30px 20px 0px;
+    background: none;
     
 }
 aside{
@@ -40,6 +41,7 @@ textarea{
 }
 input[type=submit]{
     color:black;
+    background-color: #8f62ad;
 }
 ::-webkit-input-placeholder{
     color:black;
